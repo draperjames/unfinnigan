@@ -18,16 +18,16 @@ setup(
     # https://packaging.python.org/en/latest/single_source_version.html
     version='0.0.1',
 
-    description="MS Spec ",
+    description="Python file parsing toolkit for mass spec .raw files ",
     # The project's main homepage.
     url='https://github.com/draperjames/unfinnigan',
 
     # Author details
-    author='James Draper',
+    author='The Unfinnigan Development Team',
     author_email='james.draper@duke.edu',
 
     # Choose your license
-    license='MIT',
+    license='BSD',
     classifiers=[
         # How mature is this project? Common values are
             # 3 - Alpha, 4 - Beta, 5 - Production/Stable
@@ -58,9 +58,9 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
     install_requires=['hachoir_core', 'hachoir_parser'],
 
-    To provide executable scripts, use entry points in preference to the
-    "scripts" keyword. Entry points provide cross-platform support and allow
-    pip to create the appropriate form of executable for the target platform.
+    # To provide executable scripts, use entry points in preference to the
+    # "scripts" keyword. Entry points provide cross-platform support and allow
+    # pip to create the appropriate form of executable for the target platform.
     entry_points={
         'console_scripts': [
             'unfinnigan=unfinnigan:unfinnigan:main'
