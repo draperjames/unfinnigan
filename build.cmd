@@ -7,6 +7,8 @@
 :: Update the git repo.
 git add -A
 git commit -m "package builder"
+git push
+
 :: Cleaning up from last build.
 git clean -fdx
 
